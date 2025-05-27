@@ -1,0 +1,2 @@
+# Ignore box data that is used for local development.
+data/LOCAL.csv
