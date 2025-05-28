@@ -1,2 +1,2 @@
 # Ignore box data that is used for local development.
-data/LOCAL.csv
+public/data/LOCAL.json
