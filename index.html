@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TaskCanvas</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <!-- Home Viewport should encapsulate both the Canvas and the container storing the boxes -->
+        <!-- Also, the home viewport should hide overflow. -->
+        <div id="home-viewport">
+            <!-- The Home Canvas will draw the lines to connect dependent boxes. It's also rendered as a sibling to the box containers. -->
+            <canvas id="home-canvas"></canvas>
+            <div id="home-boxes-container">
+                <div id="box-1" class="box-container">
+                    <div class="box-header-container">
+                        <div class="box-title">Van Life</div>
+                        <svg class="box-menu-icon" fill="currentColor" 
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path d="M8,6.5A1.5,1.5,0,1,1,6.5,8,1.5,1.5,0,0,1,8,6.5ZM.5,8A1.5,1.5,0,1,0,2,6.5,1.5,1.5,0,0,0,.5,8Zm12,0A1.5,1.5,0,1,0,14,6.5,1.5,1.5,0,0,0,12.5,8Z"/>
+                        </svg>
+                    </div>
+                    <hr>
+                    <div class="box-content-container">
+                        <div class="box-task-container">
+                            <div class="box-check-container">
+                                <div class="box-check">
+
+                                </div>
+                            </div>
+                            <div class="box-task">Buy van</div>
+                            <div class="box-cost">$4,000</div>
+                            <div class="box-time">-</div>
+                        </div>
+                        <div class="box-add-task-container">
+                            <svg class="box-plus-icon" fill="none" 
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <rect fill="none"/>
+                                <path d="M12 6V18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 12H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>

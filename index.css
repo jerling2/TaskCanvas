@@ -1,0 +1,9 @@
+@import url(global.css);
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background-1);
+    margin: 0;
+    overflow: hidden;
+}
