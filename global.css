@@ -120,12 +120,20 @@
     align-items: center;
 }
 
-.box-check {
+.box-check-on {
+    background-color: lightgreen;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.box-check-off {
     background-color: white;
     width: 1rem;
     height: 1rem;
     cursor: pointer;
 }
+
 
 .box-task {
     width: var(--task-col-2);
